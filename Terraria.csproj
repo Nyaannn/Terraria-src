@@ -1,0 +1,197 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>Terraria</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net40</TargetFramework>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Terraria.GameContent.Creative..tsv" />
+    <None Remove="Terraria.IO.Data.ResourcePacks.tsv" />
+    <None Remove="Terraria.Libraries.ReLogic.ReL.dll" />
+    <None Remove="Terraria.Libraries.DotNetZip.I.dll" />
+    <None Remove="Terraria.Libraries.JSON.NET.Ne.dll" />
+    <None Remove="Terraria.Libraries.CsvHelper.C.dll" />
+    <None Remove="Terraria.Libraries.NVorbis.NVo.dll" />
+    <None Remove="Terraria.Libraries.NVorbis.Sys.dll" />
+    <None Remove="Terraria.Libraries.MP3Sharp.MP.dll" />
+    <None Remove="Terraria.Libraries.Steamworks..dll" />
+    <None Remove="Terraria.Libraries.RailSDK.Win.dll" />
+    <None Remove="Terraria.Localization.Content..json" />
+    <None Remove="Terraria.Localization.Content..json" />
+    <None Remove="Terraria.Localization.Content..json" />
+    <None Remove="Terraria.Localization.Content..json" />
+    <None Remove="Terraria.Localization.Content..json" />
+    <None Remove="Terraria.Localization.Content..json" />
+    <None Remove="Terraria.Localization.Content..json" />
+    <None Remove="Terraria.Localization.Content..json" />
+    <None Remove="Terraria.Localization.Content..json" />
+    <None Remove="Terraria.Localization.Content..json" />
+    <None Remove="Terraria.Localization.Content..json" />
+    <None Remove="Terraria.Localization.Content..json" />
+    <None Remove="Terraria.Localization.Content..json" />
+    <None Remove="Terraria.Localization.Content..json" />
+    <None Remove="Terraria.Localization.Content..json" />
+    <None Remove="Terraria.Localization.Content..json" />
+    <None Remove="Terraria.Localization.Content..json" />
+    <None Remove="Terraria.Localization.Content..json" />
+    <None Remove="Terraria.Localization.Content..json" />
+    <None Remove="Terraria.Localization.Content..json" />
+    <None Remove="Terraria.Localization.Content..json" />
+    <None Remove="Terraria.Localization.Content..json" />
+    <None Remove="Terraria.Localization.Content..json" />
+    <None Remove="Terraria.Localization.Content..json" />
+    <None Remove="Terraria.Localization.Content..json" />
+    <None Remove="Terraria.Localization.Content..json" />
+    <None Remove="Terraria.Localization.Content..json" />
+    <None Remove="Terraria.Localization.Content..json" />
+    <None Remove="Terraria.Localization.Content..json" />
+    <None Remove="Terraria.Localization.Content..json" />
+    <None Remove="Terraria.Localization.Content..json" />
+    <None Remove="Terraria.Localization.Content..json" />
+    <None Remove="Terraria.Localization.Content..json" />
+    <None Remove="Terraria.Localization.Content..json" />
+    <None Remove="Terraria.Localization.Content..json" />
+    <None Remove="Terraria.Localization.Content..json" />
+    <None Remove="Terraria.Localization.Content..json" />
+    <None Remove="Terraria.Localization.Content..json" />
+    <None Remove="Terraria.Localization.Content..json" />
+    <None Remove="Terraria.Localization.Content..json" />
+    <None Remove="Terraria.Localization.Content..json" />
+    <None Remove="Terraria.Localization.Content..json" />
+    <None Remove="Terraria.Localization.Content..json" />
+    <None Remove="Terraria.Localization.Content..json" />
+    <None Remove="Terraria.Localization.Content..json" />
+    <None Remove="Terraria.Localization.Content..json" />
+    <None Remove="Terraria.Localization.Content..json" />
+    <None Remove="Terraria.Localization.Content..json" />
+    <None Remove="Terraria.Localization.Content..json" />
+    <None Remove="Terraria.Localization.Content..json" />
+    <None Remove="Terraria.Localization.Content..json" />
+    <None Remove="Terraria.Localization.Content..json" />
+    <None Remove="Terraria.Localization.Content..json" />
+    <None Remove="Terraria.Localization.Content..json" />
+    <None Remove="Terraria.Localization.Content..json" />
+    <None Remove="Terraria.Localization.Content..json" />
+    <None Remove="Terraria.Localization.Content..json" />
+    <None Remove="Terraria.Localization.Content..json" />
+    <None Remove="Terraria.Localization.Content..json" />
+    <None Remove="Terraria.Localization.Content..json" />
+    <None Remove="Terraria.Localization.Content..json" />
+    <None Remove="Terraria.Localization.Content..json" />
+    <None Remove="Terraria.Localization.Content..json" />
+    <None Remove="Terraria.GameContent.WorldBuil.json" />
+    <None Remove="Terraria.GameContent.Metadata..json" />
+    <None Remove="Terraria.GameContent.Metadata..json" />
+    <None Remove="Microsoft.Xna.Framework.RuntimeProfile" />
+    <EmbeddedResource Include="Terraria.GameContent.Creative..tsv" />
+    <EmbeddedResource Include="Terraria.IO.Data.ResourcePacks.tsv" />
+    <EmbeddedResource Include="Terraria.Libraries.ReLogic.ReL.dll" />
+    <EmbeddedResource Include="Terraria.Libraries.DotNetZip.I.dll" />
+    <EmbeddedResource Include="Terraria.Libraries.JSON.NET.Ne.dll" />
+    <EmbeddedResource Include="Terraria.Libraries.CsvHelper.C.dll" />
+    <EmbeddedResource Include="Terraria.Libraries.NVorbis.NVo.dll" />
+    <EmbeddedResource Include="Terraria.Libraries.NVorbis.Sys.dll" />
+    <EmbeddedResource Include="Terraria.Libraries.MP3Sharp.MP.dll" />
+    <EmbeddedResource Include="Terraria.Libraries.Steamworks..dll" />
+    <EmbeddedResource Include="Terraria.Libraries.RailSDK.Win.dll" />
+    <EmbeddedResource Include="Terraria.Localization.Content..json" />
+    <EmbeddedResource Include="Terraria.Localization.Content..json" />
+    <EmbeddedResource Include="Terraria.Localization.Content..json" />
+    <EmbeddedResource Include="Terraria.Localization.Content..json" />
+    <EmbeddedResource Include="Terraria.Localization.Content..json" />
+    <EmbeddedResource Include="Terraria.Localization.Content..json" />
+    <EmbeddedResource Include="Terraria.Localization.Content..json" />
+    <EmbeddedResource Include="Terraria.Localization.Content..json" />
+    <EmbeddedResource Include="Terraria.Localization.Content..json" />
+    <EmbeddedResource Include="Terraria.Localization.Content..json" />
+    <EmbeddedResource Include="Terraria.Localization.Content..json" />
+    <EmbeddedResource Include="Terraria.Localization.Content..json" />
+    <EmbeddedResource Include="Terraria.Localization.Content..json" />
+    <EmbeddedResource Include="Terraria.Localization.Content..json" />
+    <EmbeddedResource Include="Terraria.Localization.Content..json" />
+    <EmbeddedResource Include="Terraria.Localization.Content..json" />
+    <EmbeddedResource Include="Terraria.Localization.Content..json" />
+    <EmbeddedResource Include="Terraria.Localization.Content..json" />
+    <EmbeddedResource Include="Terraria.Localization.Content..json" />
+    <EmbeddedResource Include="Terraria.Localization.Content..json" />
+    <EmbeddedResource Include="Terraria.Localization.Content..json" />
+    <EmbeddedResource Include="Terraria.Localization.Content..json" />
+    <EmbeddedResource Include="Terraria.Localization.Content..json" />
+    <EmbeddedResource Include="Terraria.Localization.Content..json" />
+    <EmbeddedResource Include="Terraria.Localization.Content..json" />
+    <EmbeddedResource Include="Terraria.Localization.Content..json" />
+    <EmbeddedResource Include="Terraria.Localization.Content..json" />
+    <EmbeddedResource Include="Terraria.Localization.Content..json" />
+    <EmbeddedResource Include="Terraria.Localization.Content..json" />
+    <EmbeddedResource Include="Terraria.Localization.Content..json" />
+    <EmbeddedResource Include="Terraria.Localization.Content..json" />
+    <EmbeddedResource Include="Terraria.Localization.Content..json" />
+    <EmbeddedResource Include="Terraria.Localization.Content..json" />
+    <EmbeddedResource Include="Terraria.Localization.Content..json" />
+    <EmbeddedResource Include="Terraria.Localization.Content..json" />
+    <EmbeddedResource Include="Terraria.Localization.Content..json" />
+    <EmbeddedResource Include="Terraria.Localization.Content..json" />
+    <EmbeddedResource Include="Terraria.Localization.Content..json" />
+    <EmbeddedResource Include="Terraria.Localization.Content..json" />
+    <EmbeddedResource Include="Terraria.Localization.Content..json" />
+    <EmbeddedResource Include="Terraria.Localization.Content..json" />
+    <EmbeddedResource Include="Terraria.Localization.Content..json" />
+    <EmbeddedResource Include="Terraria.Localization.Content..json" />
+    <EmbeddedResource Include="Terraria.Localization.Content..json" />
+    <EmbeddedResource Include="Terraria.Localization.Content..json" />
+    <EmbeddedResource Include="Terraria.Localization.Content..json" />
+    <EmbeddedResource Include="Terraria.Localization.Content..json" />
+    <EmbeddedResource Include="Terraria.Localization.Content..json" />
+    <EmbeddedResource Include="Terraria.Localization.Content..json" />
+    <EmbeddedResource Include="Terraria.Localization.Content..json" />
+    <EmbeddedResource Include="Terraria.Localization.Content..json" />
+    <EmbeddedResource Include="Terraria.Localization.Content..json" />
+    <EmbeddedResource Include="Terraria.Localization.Content..json" />
+    <EmbeddedResource Include="Terraria.Localization.Content..json" />
+    <EmbeddedResource Include="Terraria.Localization.Content..json" />
+    <EmbeddedResource Include="Terraria.Localization.Content..json" />
+    <EmbeddedResource Include="Terraria.Localization.Content..json" />
+    <EmbeddedResource Include="Terraria.Localization.Content..json" />
+    <EmbeddedResource Include="Terraria.Localization.Content..json" />
+    <EmbeddedResource Include="Terraria.Localization.Content..json" />
+    <EmbeddedResource Include="Terraria.Localization.Content..json" />
+    <EmbeddedResource Include="Terraria.Localization.Content..json" />
+    <EmbeddedResource Include="Terraria.Localization.Content..json" />
+    <EmbeddedResource Include="Terraria.GameContent.WorldBuil.json" />
+    <EmbeddedResource Include="Terraria.GameContent.Metadata..json" />
+    <EmbeddedResource Include="Terraria.GameContent.Metadata..json" />
+    <EmbeddedResource Include="Microsoft.Xna.Framework.RuntimeProfile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Core" />
+    <Reference Include="Microsoft.Xna.Framework" />
+    <Reference Include="ReLogic" />
+    <Reference Include="Microsoft.Xna.Framework.Game" />
+    <Reference Include="Microsoft.Xna.Framework.Graphics" />
+    <Reference Include="Ionic.Zip.CF" />
+    <Reference Include="Newtonsoft.Json" />
+    <Reference Include="CsvHelper" />
+    <Reference Include="Steamworks.NET" />
+    <Reference Include="RailSDK.Net" />
+    <Reference Include="SteelSeriesEngineWrapper">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Terraria\SteelSeriesEngineWrapper.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="Microsoft.Xna.Framework.Xact" />
+    <Reference Include="MP3Sharp" />
+    <Reference Include="NVorbis" />
+  </ItemGroup>
+</Project>
